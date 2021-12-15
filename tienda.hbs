@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="/css/estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+ {{>header}}
+<section class="pedido">
+    <br>
+    <h2>Hacé tu pedido</h2>
+    <br>
+    <form action="" onsubmit="return validarFormulario()">
+        <label for="nombre">
+            <span>Nombre:  </span>
+        </label>
+        <input id="nombre" name="nombre" type="text">
+        <br><br>
+        <label for="edad">
+            <span>Edad:  </span>
+        </label>
+        <input id="edad" name="edad" type="text">
+        <br><br>
+        <label for="correo">
+            <span>Correo electrónico:  </span>
+        </label>
+        <input id="correo" name="correo" type="email">
+        <br><br>
+        <label for="fecha">
+            <span>Fecha deseada para la entrega:  </span>
+        </label>
+        <input id="fecha" name="fecha" type="date">
+        <br><br>
+        <label for="selector">
+            <span>Pedido:  </span>
+        </label>
+        <select id="selector" name="selector">
+            <option value="">Café</option>
+            <option value="1">Merienda</option>
+            <option value="2">Desayuno</option>
+            <option value="3">Postres</option>
+        </select>
+       <br><br>
+        <label for="radioButton">
+            <span>Medio de pago:</span>
+        </label><br>
+        <input type="radio" id="radioButton" name="radioButton"> Efectivo<br>
+        <input type="radio" id="radioButton" name="radioButton"> Transferencia (MP, Banco)<br>
+        <input type="radio" id="radioButton" name="radioButton"> Tarjeta<br>
+        <br>
+        <label for="checkBox">
+            <span>Un clck más:</span>
+            <input id="checkBox" name="checkBox" type="checkbox"> No soy un robot
+            <br><br>
+        </label>
+        <input type="submit" value="Enviar" class="botonEnviar"> 
+    </form>
+</section>         
+</body>
+{{>footer}}
+<script src="form.js"></script>
+</html>

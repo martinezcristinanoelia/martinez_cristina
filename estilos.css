@@ -1,0 +1,350 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0px;
+}
+
+/*-----HEADER*/
+.banner {
+    color: cornsilk;
+    background-image: url("/imagen/cafecito.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:0.2rem;
+    font-weight: 650;
+    font-size: 1.8rem;
+    padding-bottom: 23px;
+    padding-left: 0%;
+    padding-right: 10px;
+    height: 100px;
+    padding-top: 0.25px;
+}
+
+.tituloHome {
+    padding-top: 15%;
+    height: 30px;
+    padding: 0.5px;
+    float: left;
+    margin-top: 1px;
+    padding-left: 1%;
+}
+
+.headerEnlaceHome{
+    color: white;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 1.1rem;
+    float: right;
+    margin-top: 13.200px;
+    padding-right: 12px;
+}
+
+.headerEnlace {
+    color:peru;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 1.1rem;
+    float: right;
+    margin-top: 22px;
+    padding-right: 12px;
+}
+
+.menuSuperiorHome {
+    list-style: none;
+    padding-top: 8px;
+    text-align: right;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+nav {
+    padding: .1rem;
+    margin: .08rem;
+}
+
+.menuSuperiorHome li{
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    padding-right: 0.1rem;
+    padding-left: 0.001rem;
+}
+
+.menuSuperiorHome a{
+    text-decoration: none;
+    background-color:rgb(136, 92, 34);
+    color:white;
+    text-transform:uppercase;
+    padding: .5rem;
+    font-size: 14px;
+}
+
+.bannergeneral{
+    color: rgb(136, 92, 34);
+    background-color:cornsilk;
+    background-size:100%;
+    background-position:0.2rem;
+    font-weight: 650;
+    font-size: 1.8rem;
+    padding-bottom: 23px;
+    padding-left: 0%;
+    padding-right: 10px;
+    height: 70px;
+    padding-top: 1px;
+}
+
+.titulo {
+    padding-top: 15%;
+    height: 30px;
+    padding: 0.5px;
+    float: left;
+    margin-top: 1px;
+    padding-left: 1%;
+}
+
+.menuSuperior {
+    list-style: none;
+    text-align: right;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+nav {
+    padding: .1rem;
+    margin: .08rem;
+}
+
+.menuSuperior li{
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    padding-right: 0.1rem;
+    padding-left: 0.001rem;
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    background-color:rgb(136, 92, 34);
+    color:cornsilk;
+    text-transform:uppercase;
+    padding: .5rem;
+    font-size: 14px;
+}
+
+/*HISTORIA*/
+.historia{
+    color: cornsilk;
+    font-size: 28px;
+    -webkit-text-stroke: 0.8px rgb(68, 6, 6);
+    padding-left: 1%;
+}
+/* ASIDE */
+.contenido{
+    display: flex;
+    background-color:cornsilk;
+    color:rgb(63, 45, 17);
+    width: 70%;
+    padding-top:8px;
+    padding-left: 20px;
+    float: left;
+    font-size: 25px;
+    font-family: cursive;
+    height: 458px;
+}
+
+.variedades{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    list-style:circle;
+    color: rgb(63, 45, 17);
+    font-family: cursive;
+    padding-left: 20px;
+
+}
+
+.destacados{
+    margin-left: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 200px;
+    width: 550px;
+    margin-top: 8px;
+    margin-right: 90px;
+}
+.tituloDestacado{
+    font-size: 2rem;
+    color: chocolate;
+    font-family: cursive;
+    margin-left: 185px;
+}
+
+.fotos{
+    width: 150px;
+}
+
+/*--------CONTENIDO----*/
+.titulo2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 70px;
+    text-align: center;
+    background-color: burlywood;
+    margin: 0%;
+    padding-top: 1.25%;
+    height: 50px;
+}
+
+.contenedorFlex{
+    display: flex;
+    background-color: burlywood;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align:  center;
+    margin-left: 15%;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 400px;
+}
+
+/*-----CONTENIDO*/
+.pedido{
+    color: cornsilk;
+    padding-left: 30px;
+    background-image: url("/imagen/tienda.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size: 20px;
+    height: 575px;
+}
+
+.botonEnviar{ 
+    color: brown;
+    font-size: 15px;
+    width: 80px;
+}
+.nos{
+    background-image: url("/imagen/cafeteria.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-family: cursive;
+    padding-top: 0%;
+    padding-right: 5%;
+    padding-left: 5%;
+    color:  rgb(94, 74, 31);
+    font-size: 28px;
+    -webkit-text-stroke:0.25px rgba(105, 26, 26, 0.555);
+    text-align: center;
+    height: 510px;
+}
+
+.container{
+    margin-top: 1px;
+    padding-left: 30px;
+    background-image: url("/imagen/contacto.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 650px;
+    color: cornsilk;
+}
+
+/*-----FOOTER*/
+
+.footer{
+    background-color: rgb(78, 57, 31);
+    color: blanchedalmond;
+    height: 220px;
+}
+
+.footerTitulo{
+    color:cornsilk;
+    font-size: 1rem;
+    padding-left: 125px;
+    font-family:sans-serif;
+    margin-bottom: 1.5px;
+}
+
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    float: left;  
+    width: 100px;
+    list-style: none;
+}
+
+.footerMenu a{
+    text-decoration: none;
+    color:cornsilk;
+    font-size: 1rem;
+    padding-left: 80px;  
+} 
+
+.iconmail{
+    width: 50px;
+}
+
+.iconfb{
+    width: 50px;
+    color: blue;
+}
+
+.iconig{
+    width: 50px;
+    color: pink;
+}
+
+.ubicacion{
+    color: cornsilk;
+    margin-left:0px;
+    font-size: 1rem;
+    font-family:sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 380px;
+    width: 200px;
+    height: 150px;
+}
+
+.map-container{
+width: 150px;
+margin-top: 0px;
+padding-top: 0px;
+margin-left: 30px; 
+}
+
+.final{
+list-style: none;   
+width: 25%;
+float: left;
+padding-left: 0px;
+margin-left: 0px;
+margin-top: 40px;
+}
+
+.irArriba{
+    color: white;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 1.1rem;
+    float: right;
+    margin-top: 14.200px;
+    padding-right: 20px;
+}
+
+.propiedad{
+padding-left: 100px;
+margin-left: 150px;
+font-size: 1rem;
+color: grey;
+}

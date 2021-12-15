@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="/css/estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+{{>header}}
+  <section class="container">
+      <br>
+   <h1>Envianos tu consulta:</h1>
+   <br>
+    <form action="/send-email" method="post">
+    <div class="mb">
+        <input type="text" name="Nombre" class="form-control1" placeholder="Nombre"></div>
+        <br>
+    <div class="mb">
+        <input type="text" name="Apellido" class="form-control1" placeholder="Apellido"></div>
+        <br>
+    <div class="mb">
+        <input type="text" name="Email" class="form-control1" placeholder="Email"></div>
+        <br>
+    <div class="mb">
+        <input type="text" name="Asunto" class="form-control1" placeholder=" Escribí tu asunto"></div> 
+        <br>           
+    <div class="mb">   
+        <textarea name="Mensaje" id="" cols="40" rows="20" placeholder=" Mensaje">
+        </textarea>
+    </div> 
+    <br>
+        <button class="botonEnviar">ENVIAR</button>
+    </form>
+    </section>
+</body>
+{{>footer}}
+<script src="/assets/js/jquery-3.3.1.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+</html>
